@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.veco.drunkpath.Drawer"
+    tools:showIn="@layout/app_bar_drawer"
+    android:id="@+id/sve">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </fragment>
+
+
+    <ToggleButton
+        android:background="@android:drawable/btn_default"
+        android:id="@+id/toggleButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textOn="@string/button_stop_tracking"
+        android:textOff="@string/button_start_tracking"
+        android:gravity="center"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:background="@android:drawable/btn_default"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:layout_above="@+id/toggleButton"
+        android:layout_alignRight="@+id/toggleButton"
+        android:layout_alignEnd="@+id/toggleButton"
+        android:id="@+id/btn_reset"
+        />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:shadowColor="#000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="2.5"
+        android:id="@+id/textview_distance"
+        android:layout_gravity="bottom|end"
+        android:textSize="16sp" />
+
+</RelativeLayout>

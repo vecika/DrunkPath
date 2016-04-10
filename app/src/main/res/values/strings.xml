@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DrunkPath</string>
+    <string name="title_activity_maps">Drunk Path</string>
+    <string name="button_stop_tracking">Stop tracking</string>
+    <string name="button_start_tracking">Start tracking</string>
+    <string name="toast_signal_acquired">Signal acquired!</string>
+    <string name="menu_tera">Terrain view</string>
+    <string name="menu_normal">Normal view</string>
+    <string name="menu_satellite">Satellite view</string>
+    <string name="title_activity_drawer">Drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tracking">TRACKING...</string>
+    <string name="gps_enabled">GPS is enabled on your device</string>
+    <string name="here">You are here</string>
+    <string name="searching_for_gps">Searching for GPS...</string>
+    <string name="inactive">Inactive</string>
+    <string name="txt_continue">Continue...</string>
+    <string name="gps_disabled_message">GPS is disabled in your device. This application needs to have it enabled to work. Would you like to enable it right now?</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="exit_application">Exit application</string>
+    <string name="set_refresh_rate">Set refresh time</string>
+    <string name="refresh_rate_message">Lowering this value will drain your battery life faster, but will increase precision of your tracking</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="sending_data">Sending data to NSA...</string>
+    <string name="reset">RESET</string>
+    <string name="e_mail">Send e-mail</string>
+    <string name="send_ideas">Send me your suggestions and ideas to make application even better.</string>
+    <string name="ill_try">Atleast I\'ll try.</string>
+    <string name="tracking_over">Your conquest is over!</string>
+    <string name="time">time</string>
+    <string name="back_to_map">Back to the map</string>
+    <string name="do_something">Do something</string>
+    <string name="drunk_path">DRUNK PATH</string>
+    <string name="subtitle">If you don\'t remember, we\'ll do it for you!</string>
+
+
+</resources>

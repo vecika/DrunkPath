@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#FF7D20"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:alpha="0.9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tracking_over"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:src="@drawable/icon_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/icon_speed"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginLeft="-5dp"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/icon_time"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginLeft="0dp"
+        android:contentDescription="@string/time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Small Text"
+        android:id="@+id/tv_distance"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/tv_speed"
+        android:layout_alignStart="@+id/tv_speed"
+        android:layout_marginBottom="0dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Small Text"
+        android:id="@+id/tv_speed"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#000000"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Small Text"
+        android:id="@+id/tv_time"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignLeft="@+id/tv_speed"
+        android:layout_alignStart="@+id/tv_speed"
+        android:layout_marginBottom="4dp"
+        android:textColor="#000000"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:textSize="12sp"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_map"
+        android:id="@+id/btn_back"
+        android:layout_below="@+id/tv_time"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp"
+        android:lines="2"
+         />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/do_something"
+        android:textSize="12sp"
+        android:id="@+id/btn_share"
+        android:lines="2"
+        android:layout_alignTop="@+id/btn_back"
+        android:layout_toRightOf="@+id/btn_back"
+        android:layout_toEndOf="@+id/btn_back"
+        android:textColor="#985a3b"
+         />
+
+</RelativeLayout>

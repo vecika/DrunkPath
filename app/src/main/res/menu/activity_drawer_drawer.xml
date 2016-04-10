@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Map type">
+        <menu>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_hybrid"
+            android:icon="@drawable/icon_hybrid"
+            android:title="Hybrid" />
+        <item
+            android:id="@+id/nav_normal"
+            android:icon="@drawable/icon_normal"
+            android:title="Normal" />
+        <item
+            android:id="@+id/nav_satellite"
+            android:icon="@drawable/icon_satellite"
+            android:title="Satellite" />
+
+
+    </group>
+    </menu>
+    </item>
+
+    <item android:title="Refresh rate">
+    <menu>
+        <item
+            android:id="@+id/nav_refresh"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Change rate"
+            />
+    </menu>
+</item>
+
+
+
+<item android:title="About application">
+<menu>
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/icon_about"
+        android:title="About"
+        />
+</menu>
+</item>
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/colorBackground" android:layout_margin="20dp" android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/send_ideas"
+        android:id="@+id/textView2"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        android:shadowColor="#ffffff" />
+
+    <Button
+        android:background="@android:drawable/ic_dialog_email"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:id="@+id/btn_email"
+        android:layout_marginTop="85dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/e_mail"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/btn_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:textColor="#000000"
+        android:shadowColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/ill_try"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:textColor="#000000"
+        android:shadowColor="#ffffff" />
+
+</RelativeLayout>
